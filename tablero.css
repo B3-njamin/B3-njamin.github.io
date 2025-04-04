@@ -78,4 +78,9 @@ body{
     background-color: #a5682a;
 }
 
-
+.rendirse{
+    width: 20px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
