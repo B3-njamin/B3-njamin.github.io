@@ -6,7 +6,7 @@
 body{
     width: 80%;
     height: 80vh;
-    display: grid;
+    display: inline;
     place-items: center;
     background: #000046;
     
@@ -23,9 +23,10 @@ body{
 .registro { 
     float: right;
     display: inline;
-    width: 200px;
-    height: 500px;
+    width: 300px;
+    height: 700px;
     background-color: #ccc5b7;
+    margin-left: 10px;
 }
 
 .jugadores{
@@ -33,12 +34,13 @@ body{
     height: 100px;
     background-color: #fff;
     display: block;
+    margin-bottom: 20px;
 }
 
 
 .tablero {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
