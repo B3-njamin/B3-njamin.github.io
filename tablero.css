@@ -15,13 +15,13 @@ body{
 .general{
     margin:auto;
     margin-top: 50px;
-    width: 960px;
+    width: 940px;
     height: 850px;
     background-color: #6f5d44;
 }
 .tablero {
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
@@ -40,6 +40,11 @@ body{
 }
 .a{
     background-color: #a5682a;
+}
+
+.jugadores{
+    width: 940px;
+    height: 100px;
 }
 
 .registro { 
