@@ -22,6 +22,7 @@ body{
 .tablero {
     width: 600px;
     height: 600px;
+    display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
     background-color: #fff;
