@@ -30,7 +30,7 @@ body{
     text-align: center;
 }
 
-.registro li{
+.registro ul li{
    font-size: medium;
    text-align: center;
    list-style-type: none;
