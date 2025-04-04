@@ -26,11 +26,11 @@ body{
     width: 250px;
     height: 650px;
     background-color: #ccc5b7;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .jugadores{
-    width: 940px;
+    width: 960px;
     height: 100px;
     background-color: #fff;
     display: block;
@@ -60,7 +60,7 @@ body{
     grid-template-rows: repeat(8,1fr);
     background-color: #fff;
     border:dotted thin black;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .tablero *{
     text-align: center;
