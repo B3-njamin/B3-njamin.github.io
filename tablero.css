@@ -37,8 +37,8 @@ body{
 
 
 .tablero {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
@@ -53,7 +53,7 @@ body{
     user-select: none;
 }
 .tablero *:hover{
-    font-weight: 500;
+    font-weight: 600;
 }
 .a{
     background-color: #a5682a;
