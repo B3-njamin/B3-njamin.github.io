@@ -39,18 +39,14 @@ body{
 
 .jugadores .jugador1{
     display: inline;
-    float: inline-start;
+    float: left;
 }
 
 .jugadores .jugador2{
     display: inline;
-    float:inline-end;
+    float:right;
 }
 
-.jugadores .turno{
-    float: center;
-    display: inline;
-}
 
 .tablero {
     width: 650px;
