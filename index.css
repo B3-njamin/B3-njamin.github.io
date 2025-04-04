@@ -22,7 +22,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    min-height: 100px;
+    height: 100vh;
     padding: 5px 10%;
 }
 
