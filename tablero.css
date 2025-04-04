@@ -38,12 +38,12 @@ body{
 }
 
 .jugadores .jugador1{
-    display: inline-block;
+    display: inline;
     float: inline-start;
 }
 
 .jugadores .jugador1{
-    display: inline-block ;
+    display: inline;
     float:inline-end;
 }
 
