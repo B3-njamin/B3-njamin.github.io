@@ -19,6 +19,23 @@ body{
     height: 850px;
     background-color: #6f5d44;
 }
+
+.registro { 
+    float: right;
+    display: inline;
+    width: 200px;
+    height: 500px;
+    background-color: #ccc5b7;
+}
+
+.jugadores{
+    width: 940px;
+    height: 100px;
+    background-color: #fff;
+    display: block;
+}
+
+
 .tablero {
     width: 600px;
     height: 600px;
@@ -42,15 +59,4 @@ body{
     background-color: #a5682a;
 }
 
-.jugadores{
-    width: 940px;
-    height: 100px;
-    background-color: #fff;
-}
 
-.registro { 
-    float: right;
-    width: 200px;
-    height: 500px;
-    background-color: #ccc5b7;
-}
