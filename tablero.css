@@ -27,8 +27,6 @@ body{
     height: 650px;
     background-color: #ccc5b7;
     margin-left: 5px;
-    place-items: center ;
-    place-content: center;
 }
 
 .registro li{
