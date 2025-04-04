@@ -11,6 +11,14 @@ body{
     background: #000046;
     
 }
+
+.general{
+    margin:auto;
+    margin-top: 50px;
+    width: 960px;
+    height: 850px;
+    background-color: #6f5d44;
+}
 .tablero {
     width: 400px;
     height: 500px;
