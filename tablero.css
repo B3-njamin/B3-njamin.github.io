@@ -45,6 +45,7 @@ body{
 .jugadores{
     width: 940px;
     height: 100px;
+    background-color: #fff;
 }
 
 .registro { 
