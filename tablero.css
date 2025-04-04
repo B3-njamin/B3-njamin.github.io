@@ -42,11 +42,15 @@ body{
     float: inline-start;
 }
 
-.jugadores .jugador1{
+.jugadores .jugador2{
     display: inline;
     float:inline-end;
 }
 
+.jugadores .turno{
+    float: center;
+    display: inline;
+}
 
 .tablero {
     width: 650px;
@@ -56,6 +60,7 @@ body{
     grid-template-rows: repeat(8,1fr);
     background-color: #fff;
     border:dotted thin black;
+    margin-right: 10px;
 }
 .tablero *{
     text-align: center;
