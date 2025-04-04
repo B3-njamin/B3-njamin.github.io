@@ -37,6 +37,16 @@ body{
     margin-bottom: 20px;
 }
 
+.jugadores .jugador1{
+    display: inline-block;
+    float: inline-start;
+}
+
+.jugadores .jugador1{
+    display: inline-block ;
+    float:inline-end;
+}
+
 
 .tablero {
     width: 650px;
