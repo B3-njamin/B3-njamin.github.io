@@ -9,7 +9,7 @@ body{
     display: grid;
     place-items: center;
     background: #000046;
-    background: linear-gradient(to right, #1CB5E0, #000046); 
+    
 }
 .tablero {
     width: 500px;
