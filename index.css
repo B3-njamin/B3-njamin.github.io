@@ -115,7 +115,7 @@ body{
  
 
 .btn{
-    border: 1px solid;
+    border: 1px;
     padding: 5px 20px;
     color: #fff;
     transition: 0.5 ease;
