@@ -20,7 +20,7 @@ body{
 .header{
     position: static ;
     background-color: #1b3039;
-    display:block;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     min-height: 80px;
