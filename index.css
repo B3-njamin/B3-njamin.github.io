@@ -25,7 +25,7 @@ body{
     align-items: center;
     min-height: 80px;
     height: 100px;
-    padding: 10px 10%;
+    padding: 5px 10%;
 }
 
 .header .logo{
@@ -110,7 +110,7 @@ body{
     padding: 5px 20px;
     color: #fff;
     transition: 0.5 ease;
-    font-size: 20px;
+    font-size: 10px;
     text-decoration: none;
     align-items: center;
 }
