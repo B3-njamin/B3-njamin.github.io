@@ -82,7 +82,7 @@ body{
 }
 
 .buttons button:hover{
-    background-image: url(play.jpg);
+    background-image: url(imagenes/play.jpg);
 }
 
 .title{
