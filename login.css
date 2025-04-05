@@ -75,7 +75,7 @@ form .usuario{
 
 .recordar{
     margin: -5px 0 20px 5px;
-    color: gold;
+    color: rgb(216, 169, 67);
     cursor: pointer;
 }
 
@@ -115,3 +115,4 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: underline;
 }
+
