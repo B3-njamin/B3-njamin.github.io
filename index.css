@@ -84,3 +84,53 @@ body{
 .buttons button:hover{
     background-image: url(play.jpg);
 }
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.btn:hover-{
+    background-color: #fff;
+    color: #6F5D44;
+}
+
+.submenustat{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+-sub.submenustat.ul{
+    position: absolute;
+}
+
+.submenuhst{
+    display: none;
+    top: 6%;
+    position: relative;
+}
