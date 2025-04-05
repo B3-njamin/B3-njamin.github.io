@@ -105,6 +105,13 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.button li{
+    font-size: medium;
+    text-align: center;
+    list-style-type: none;
+ }
+ 
+
 .btn{
     border: 1px solid;
     padding: 5px 20px;
@@ -114,6 +121,7 @@ body{
     text-decoration: none;
     align-items: center;
 }
+
 
 .btn:hover-{
     background-color: #fff;
