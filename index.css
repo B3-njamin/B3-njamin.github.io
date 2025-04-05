@@ -146,3 +146,65 @@ body{
     top: 6%;
     position: relative;
 }
+
+-sub.submenuhst.ul{
+    position: absolute;
+}
+
+.submenustat-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+.submenuhst-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+  
+
+.header ul li:hover .submenustat{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.header ul li:hover .submenuhst{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.header ul li:hover .submenustat ul{
+    display: block;
+    margin: 6px;
+}
+
+.header ul li:hover .submenuhst ul{
+    display: block;
+    margin: 6px;
+}
+
+.header ul li:hover .submenustat ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+
+.header ul li:hover .submenuhst ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+
