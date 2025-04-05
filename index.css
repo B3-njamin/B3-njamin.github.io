@@ -47,7 +47,8 @@ body{
 
 .header .nav-menu li{
     display: inline-block;
-    padding: 0 20px;    
+    padding: 0 20px;
+    margin-left: 75px;    
 }
 
 .header .nav-menu li:hover{
