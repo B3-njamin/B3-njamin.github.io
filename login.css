@@ -50,15 +50,6 @@ form .usuario{
 
 }
 
-.usuario label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    color: silver;
-    transform: translateY(-50%);
-    font-size:16px;
-    pointer-events: none;
-}
 
 .usuario span::before{
     content: '';
