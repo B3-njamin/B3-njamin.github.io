@@ -23,8 +23,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 80px;
-    height: 100px;
+    height: 80px;
     padding: 5px 10%;
 }
 
