@@ -2,7 +2,7 @@ body{
 margin: 0;
 padding: 0;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: brown;
+background-color: #6F5D44;
 }
 
 .Formulario{
@@ -89,7 +89,7 @@ input[type="submit"]{
     border: 1px solid;
     background: rgb(168, 65, 216);
     border-radius: 25px;
-    font-size: 10px;
+    font-size: 16px;
     color: white;
     cursor: pointer;
     outline: none;
