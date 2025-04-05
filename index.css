@@ -18,6 +18,7 @@ body{
 }
 
 .header{
+    position: static ;
     background-color: #1b3039;
     display:block;
     justify-content: space-between;
