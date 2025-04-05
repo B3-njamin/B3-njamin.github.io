@@ -19,11 +19,11 @@ body{
 
 .header{
     background-color: #1b3039;
-    display: flex;
+    display:block;
     justify-content: space-between;
     align-items: center;
-    min-height: 100px;
-    height: 100vh;
+    min-height: 80px;
+    height: 100px;
     padding: 5px 10%;
 }
 
