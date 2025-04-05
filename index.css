@@ -101,13 +101,13 @@ body{
 
 .button{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
 
-.button .buton{
+.buton{
     display: block;
     font-size:  medium;
     text-align: center;
