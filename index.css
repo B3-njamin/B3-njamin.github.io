@@ -24,7 +24,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding: 0px;
+    padding: 5px 1%;
 }
 
 .header .logo{
@@ -55,9 +55,10 @@ body{
 }
 
 .header .nav-menu a{
-    font-size: 700;
+    font-size: 20px;
     color: #eceff1;
-    text-decoration: none;    
+    text-decoration: none;  
+    margin-left: 75px;
 }
 
 .header .nav-menu li a:hover{
