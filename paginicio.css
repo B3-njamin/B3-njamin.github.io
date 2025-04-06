@@ -43,11 +43,16 @@ body{
 }
 
 .content{
-    width: 1200px;
-    height: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
     margin: auto;
+    padding-top: 50px;
+}
+
+.content-left{
+    max-width: 600px;
     color: #fff;
-    position: relative;
 }
 
 .content .par{
@@ -59,11 +64,13 @@ body{
 }
 
 .content h1{
-    font-family: 'Times New Roman';
     font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
+}
+
+.content h1 span{
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .content .cn{
@@ -97,8 +104,8 @@ body{
 }
 
 .form{
-    width: 250px;
-    height: 380px;
+    width: 300px;
+    height: 420px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
@@ -121,7 +128,7 @@ body{
 }
 
 .form input{
-    width: 240px;
+    width: 280px;
     height: 35px;
     background: transparent;
     border-bottom: 1px solid #1b3039;
@@ -145,7 +152,7 @@ body{
 }
 
 .btnn{
-    width: 240px;
+    width: 280px;
     height: 40px;
     background: #fff;
     border: none;
@@ -184,4 +191,24 @@ body{
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 9%;
+}
+
+.welcome{
+    font-family: 'Times New Roman';
+    display: block;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.chess{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 35px;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 2px;
 }
