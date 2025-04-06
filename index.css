@@ -1,6 +1,6 @@
 @font-face{
     font-family: Titulo;
-    src: url(fonts/titulo.css);
+    src: url(fonts/titulo.ttf);
 }
 
 *{
@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
 }
 
 body{
@@ -83,15 +82,15 @@ body{
     transform: scale(1.1);
 }
 
-.buttons button:hover{
-    background-image: url(imagenes/play.jpg);
-}
-
 .title{
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "Titulo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 .title h1{
@@ -104,21 +103,16 @@ body{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-}
-
-.buton{
     display: block;
     font-size:  medium;
     text-align: center;
     list-style-type: none;
     margin-top: 10px;
     width: 50px;
- }
- 
+}
 
 .btn{
     display: inline-block;
@@ -191,9 +185,9 @@ body{
 .header ul li:hover .submenustat ul li{
     width: 75px;
     padding: 5px;
-    border-bottom: 1px #fff;
+    border-bottom: 1px solid #fff;
     background: transparent;
-    transition: 0.4 ease;
+    transition: all 0.4s ease;
     text-align: left;
     border-radius: 0px;
 }
@@ -201,9 +195,9 @@ body{
 .header ul li:hover .submenuhst ul li{
     width: 75px;
     padding: 5px;
-    border-bottom: 1px #fff;
+    border-bottom: 1px solid #fff;
     background: transparent;
-    transition: 0.4 ease;
+    transition: all 0.4s ease;
     text-align: left;
     border-radius: 0px;
 }
@@ -230,7 +224,6 @@ body{
     right: 0;
     margin-right: 10px;
     text-align: right;
-    text-decoration: none;
 }
 
 .side-list ul{
@@ -242,6 +235,26 @@ body{
     margin-bottom: 10px;
 }
 
-img{
-    object-fit: cover;
+.aboutus .cn{
+    width: 160px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    text-transform: uppercase;
+}
+
+.aboutus .cn a{
+    text-decoration: none;
+    color: #1b3039;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #64543e;
 }

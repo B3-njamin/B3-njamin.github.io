@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #6F5D44;
+}
+
+h1, h2, p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: static ;
+    background-color: #1b3039;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 1%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-menu{
+    list-style: none;
+}
+
+.header .nav-menu li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: 75px;    
+}
+
+.header .nav-menu li:hover{
+    transform: scale(1.1);
+}
+
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 4rem;
+}
+
+.aboutus-text{
+    max-width: 60%;
+}
+  
+.aboutus .aboutus-title{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.aboutus .aboutus-info{
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.aboutus .imagen-circular{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}

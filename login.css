@@ -99,20 +99,3 @@ input[type="submit"]:hover{
     border-color: white;
     transition: .7s;
 }
-
-.registrarse{
-    margin: 30px 0;
-    text-align: center;
-    font-size: 16px;
-    color: black;
-}
-
-.registrarse a{
-    color: blue;
-    text-decoration:none;
-}
-
-.registrarse a:hover{
-    text-decoration: underline;
-}
-
