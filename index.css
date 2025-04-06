@@ -164,6 +164,7 @@ body{
     padding: 10px 20px;
     margin-left: 75px;
     transition: color 0.3s ease;
+    top: 100px;
 }
 
 .menu-btn:hover{
