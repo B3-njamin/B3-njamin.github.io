@@ -133,6 +133,41 @@ body{
     transform: scale(1.1);
 }
 
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10;
+    list-style: none;
+}
+
+#stats-toggle:checked ~ .submenustat{
+    display: block;
+}
+
+#history-toggle:checked ~ .submenuhst{
+    display: block;
+}
+
+.menu-btn{
+    font-size: 20px;
+    color: #eceff1;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 75px;
+    transition: color 0.3s ease;
+}
+
+.menu-btn:hover{
+    color: #ffbc0e;
+}
+
 .submenustat{
     display: none;
     top: 6%;
