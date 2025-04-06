@@ -124,7 +124,7 @@ button:hover{
     letter-spacing: 1px;
 }
 .exit{
-    background-color: rgb(110, 12, 12);
+    background-color: gray;
     color: white;
     letter-spacing: normal;
 }
