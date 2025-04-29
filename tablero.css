@@ -61,7 +61,7 @@ body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
-    background-color: #fff;
+    background-color: #e4aa40;
     border:dotted thin black;
     margin-right: 5px;
 }
