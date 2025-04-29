@@ -61,7 +61,7 @@ body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
-    background-color: #faf2e2;
+    background-color: #d6a41b;
     border:dotted thin black;
     margin-right: 5px;
 }
@@ -76,7 +76,7 @@ body{
     font-weight: 600;
 }
 .a{
-    background-color: #d4883c;
+    background-color: #ffffff;
 }
 
 .rendirse{
