@@ -8,7 +8,7 @@ body{
     height: 80vh;
     display: inline;
     place-items: center;
-    background: #5c451a;
+    background: #000046;
     
 }
 
@@ -17,7 +17,7 @@ body{
     margin-top: 50px;
     width: 960px;
     height: 850px;
-    background-color: #ffffff;
+    background-color: #917322;
 }
 
 .registro { 
@@ -61,7 +61,7 @@ body{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
-    background-color: #d6a41b;
+    background-color: #ffffff;
     border:dotted thin black;
     margin-right: 5px;
 }
